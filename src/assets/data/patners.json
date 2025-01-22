@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "logo": "./src/assets/img/logo/one-medical-logo.png"
+    },
+    {
+        "id": 2,
+        "logo": "./src/assets/img/logo/cleveland-clinic-logo.png"
+    },
+    {
+        "id": 3,
+        "logo": "./src/assets/img/logo/galileo-logo.png"
+    },
+    {
+        "id": 4,
+        "logo": "./src/assets/img/logo/nox-health-logo.png"
+    }
+]
