@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "faFlask",
+        "text": "24/7 Pharmacy Services",
+        "description": "Access to a fully stocked pharmacy round the clock for medications and healthcare essentials."
+    },
+    {
+        "icon": "faBell",
+        "text": "Emergency Care",
+        "description": "A fully-equipped emergency department ensures swift and effective response to critical situations."
+    },
+    {
+        "icon": "faComments",
+        "text": "Telemedicine Services",
+        "description": "The hospital offers a wide range of medical specialties, ensuring expertise in various fields of medicine."
+    },
+    {
+        "icon": "faHeart",
+        "text": "Rehabilitation Facilities",
+        "description": "Utilize rehabilitation services to support recovery and enhance your physical well-being rehabilitation services."
+    },
+    {
+        "icon": "faClipboardCheck",
+        "text": "Compherensive Speacialities",
+        "description": "The hospital offers a wide range of medical. specialties, ensuring expertise in various fields of medicine."
+    },
+    {
+        "icon": "faHotel",
+        "text": "Luxurious Patient Rooms",
+        "description": "Patients experience comfort in well-appointed private rooms with modern amenities."
+    }
+]
