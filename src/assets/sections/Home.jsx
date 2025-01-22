@@ -10,7 +10,7 @@ import "swiper/swiper-bundle.css"
 export default function Home() {
 	return (
 		<>
-			<Section id={"home"} className={"mt-20 text-center"}>
+			<Section id={"home"} className={"mt-14 text-center"}>
                 <SectionTitle title={"Health Harmony"} align={"center"} headline={"Your Gateway to Optimal Health Solution"} description={"Our platform serves as your gateway to a healthier life, offering personalized guidance, valuable insights, and support for your well-being."} />
 
 				<div className="flex flex-col gap-6">
@@ -32,7 +32,7 @@ export default function Home() {
 				</div>
 			</Section>
 
-			<div className="container overflow-hidden mb-20">
+			<div className="container overflow-hidden mb-14">
 				<Swiper
 					centeredSlides={true}
 					autoplay={{
