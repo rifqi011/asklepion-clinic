@@ -1,0 +1,26 @@
+[
+	{
+		"name": "dr. Andi Setiawan, Sp.PD",
+		"speciality": "Sp. Penyakit Dalam",
+		"image": "./src/assets/img/doctor/1.jpg",
+		"services": ["Visit Clinic", "Online Consultation"]
+	},
+	{
+		"name": "dr. Ayu Lestari, Sp.OG",
+		"speciality": "Sp. Obstetri dan Ginekologi",
+		"image": "./src/assets/img/doctor/2.jpg",
+		"services": ["Visit Clinic"]
+	},
+	{
+		"name": "dr. Budi Santoso, Sp.A",
+		"speciality": "Sp. Anak",
+		"image": "./src/assets/img/doctor/4.jpg",
+		"services": ["Visit Clinic"]
+	},
+	{
+		"name": "dr. Cici Herawati, Sp.S",
+		"speciality": "Sp. Saraf",
+		"image": "./src/assets/img/doctor/2.jpg",
+		"services": ["Visit Clinic"]
+	}
+]
