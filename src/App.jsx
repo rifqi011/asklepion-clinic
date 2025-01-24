@@ -1,8 +1,8 @@
-import Header from "./assets/components/Header"
-import AboutUs from "./assets/sections/AboutUs"
-import Doctors from "./assets/sections/Doctors"
-import Home from "./assets/sections/Home"
-import WhyChooseUs from "./assets/sections/WhyChooseUs"
+import Header from "./components/Header"
+import AboutUs from "./sections/AboutUs"
+import Doctors from "./sections/Doctors"
+import Home from "./sections/Home"
+import WhyChooseUs from "./sections/WhyChooseUs"
 
 export default function App() {
 	return (
