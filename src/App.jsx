@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import AboutUs from "./sections/AboutUs"
 import Doctors from "./sections/Doctors"
@@ -18,7 +19,9 @@ export default function App() {
 
 			<Doctors />
 
-			<Quality />
+            <Quality />
+            
+            <Footer />
 		</>
 	)
 }
