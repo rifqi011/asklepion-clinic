@@ -36,8 +36,8 @@ export default function Header() {
     }, [menuOpen])
 
 	return (
-		<header className={`container left-0 top-0 fixed h-16 flex justify-between items-center bg-white z-40] transition-all duration-300 ${scrolled ? " shadow-lg shadow-gray" : ""}`}>
-			<Logo className={"z-40"} />
+		<header className={`container left-0 top-0 fixed h-16 flex justify-between items-center bg-white z-40 transition-all duration-300 ${scrolled ? " shadow-lg shadow-gray" : ""}`}>
+			<Logo className={"z-50"} />
 
             <MobileMenu isOpen={menuOpen} closeMenu={toggleMenu} menuRef={buttonRef} />
 
