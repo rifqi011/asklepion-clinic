@@ -28,7 +28,7 @@ export default function Doctors() {
                                     <p className="text-green font-normal text-xl">
                                         {Array.isArray(doctor.services) && doctor.services.length > 1 ? doctor.services.join(' & ') : doctor.services}
                                     </p>
-                                    <h4 className="text-3xl">{doctor.name}</h4>
+                                    <h4 className="text-2xl">{doctor.name}</h4>
                                     <p className="text-xl">{doctor.speciality}</p>
 
                                     <ButtonPrimary href={"/"} className={"justify-center text-xl font-light"}>
