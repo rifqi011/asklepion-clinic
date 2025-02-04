@@ -11,7 +11,7 @@ import ButtonPrimary from "../components/ButtonPrimary"
 export default function Doctors() {
     return (
         <Section id={"doctors"}>
-            <SectionTitle title={"Doctors"} headline={"Choose the doctors that according to you need"} description={"Our dedicated team of professionals is committed to providing personalized care and advanced medical solutions."}>
+            <SectionTitle title={"Doctors"} headline={"Choose the doctors that according to you need"} description={"Our dedicated team of professionals is committed to providing personalized care and advanced medical solutions."} sectionId={"doctors"}>
                 <ButtonSecondary href={"/"} className={"self-start"}>
                     See all <FontAwesomeIcon icon={faArrowRight} />
                 </ButtonSecondary>

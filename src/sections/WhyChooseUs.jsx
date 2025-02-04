@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
 
 	return (
 		<Section id={"why-choose-us"}>
-			<SectionTitle title={"Why Choose Us"} align={"center"} headline={"Treatment avialable for you"} description={"Our dedicated team of professionals is committed to providing personalized care medical solutions."} />
+			<SectionTitle title={"Why Choose Us"} align={"center"} headline={"Treatment avialable for you"} description={"Our dedicated team of professionals is committed to providing personalized care medical solutions."} sectionId={"why-choose-us"} />
 
 			<div className="grid grid-cols-1 gap-6">
 				{WhyChooseUsData.map((data, index) => (

@@ -17,7 +17,7 @@ export default function AboutUs() {
 				</Card>
 			</div>
 
-			<SectionTitle title={"About Us"} align={"left"} headline={"We Provide Quality Care for Your Health"} description={"We are committed to delivering exceptional healthcare services to prioritize your well-being with our experienced professionals strive to create an environment that fosters healing and promotes a healthy lifestyle."} />
+			<SectionTitle title={"About Us"} align={"left"} headline={"We Provide Quality Care for Your Health"} description={"We are committed to delivering exceptional healthcare services to prioritize your well-being with our experienced professionals strive to create an environment that fosters healing and promotes a healthy lifestyle."} sectionId={"about-us"} />
 
 			<div className="overflow-hidden w-full">
 				<Swiper loop={false} slidesPerView={1.7} spaceBetween={20}>
