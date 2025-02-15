@@ -22,9 +22,9 @@ export default function Home() {
 						<Image src={"./src/assets/img/hero/3.jpg"} alt={"Hero"} />
 
 						<div className="bg-green text-white text-left p-4 rounded-2xl flex flex-col gap-2">
-							<h4 className="text-2xl">Find more services</h4>
-							<p className="text-lg">One Stop Shop for All Medical Needs for Complete Recovery</p>
-							<ButtonSecondary href={"/"} className={"border-none rounded-md self-end"}>
+							<h4 className="text-2xl xl:text-xl">Find more services</h4>
+							<p className="text-lg xl:text-base">One Stop Shop for All Medical Needs for Complete Recovery</p>
+							<ButtonSecondary href={"/"} className={"border-none rounded-md self-end xl:text-sm"}>
 								Explore Services
 							</ButtonSecondary>
 						</div>

@@ -8,7 +8,7 @@ import Image from "../components/Image"
 
 export default function Quality() {
 	return (
-		<Section id={"quality"}>
+		<Section id={"quality"} className={"xl:flex-row"}>
 			<SectionTitle title={"Quality"} headline={"Our Performance Quality Care, Made for You"} description={"We understand that each individual has distinct requirements when it comes to their health and well-being."} sectionId={"quality"}>
 				<ul className="flex flex-col gap-4">
 					{QualityData.map((quality, index) => (
@@ -24,9 +24,9 @@ export default function Quality() {
 				</ButtonPrimary>
 			</SectionTitle>
 
-			<div className="flex w-full gap-4">
-				<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square w-full md:w-1/2"} />
-				<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square w-1/2 hidden md:block"} />
+			<div className="flex w-full gap-4 xl:w-[45%]">
+				<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square w-full md:w-1/2 xl:w-full"} />
+				<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square w-1/2 hidden md:block xl:hidden"} />
 			</div>
 		</Section>
 	)
