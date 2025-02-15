@@ -24,7 +24,10 @@ export default function Quality() {
 				</ButtonPrimary>
 			</SectionTitle>
 
-			<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square"} />
+			<div className="flex w-full gap-4">
+				<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square w-full md:w-1/2"} />
+				<Image src={"./src/assets/img/quality/1.jpg"} alt={"Quality"} className={"aspect-square w-1/2 hidden md:block"} />
+			</div>
 		</Section>
 	)
 }

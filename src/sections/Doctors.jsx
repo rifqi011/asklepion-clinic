@@ -22,7 +22,7 @@ export default function Doctors() {
 					{DoctorsData.map((doctor, index) => (
 						<SwiperSlide key={index}>
 							<Card className="p-0 rounded-[2rem] flex flex-col gap-4">
-								<Image src={doctor.image} className={"rounded-[2rem] rounded-br-none rounded-bl-none h-[500px] object-top"} />
+								<Image src={doctor.image} className={"rounded-[2rem] rounded-br-none rounded-bl-none h-[350px] object-top"} />
 
 								<div className="px-4 flex flex-col gap-4 pt-0 pb-6">
 									<p className="text-green font-normal text-xl">{Array.isArray(doctor.services) && doctor.services.length > 1 ? doctor.services.join(" & ") : doctor.services}</p>
