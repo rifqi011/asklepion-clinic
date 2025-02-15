@@ -31,7 +31,7 @@ export default function Footer() {
 				</div>
 
 				{/* footer menu */}
-				<div className="flex flex-col gap-6 flex-1">
+				<div className="flex flex-col gap-6 flex-1 md:flex-row md:justify-between">
 					{FooterMenu.map((menu, index) => (
 						<div key={index} className="flex flex-col gap-3">
 							<h4 className="text-lg font-medium">{menu.title}</h4>

@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
 		<Section id={"why-choose-us"}>
 			<SectionTitle title={"Why Choose Us"} align={"center"} headline={"Treatment avialable for you"} description={"Our dedicated team of professionals is committed to providing personalized care medical solutions."} sectionId={"why-choose-us"} />
 
-			<div className="grid grid-cols-1 gap-6">
+			<div className="grid grid-cols-1 gap-6 md:grid-cols-2">
 				{WhyChooseUsData.map((data, index) => (
                     <Card key={index} className={"flex flex-col gap-3 flex-1 h-full"}>
                         <FontAwesomeIcon icon={iconMap[data.icon]} className="bg-lightgreen text-green text-xl p-4 rounded-full self-start" />
